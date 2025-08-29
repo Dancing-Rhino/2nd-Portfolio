@@ -1,5 +1,5 @@
 .sidenav {
-  height: 100%;
+  height: 91%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -9,6 +9,8 @@
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .sidenav a {
@@ -37,7 +39,7 @@
 }
 
 button{
-  font-size: 20px;
+  font-size: 19px;
   cursor: pointer;
   background-color: transparent;
   color: black;
@@ -90,7 +92,8 @@ p{
 }
 
 #abt-text{
-    font-size: 20px;  
+    font-size: 20px; 
+    margin-left: 4em; 
 }
 
 img{
